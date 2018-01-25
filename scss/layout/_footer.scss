@@ -1,0 +1,48 @@
+.footer{
+  background-color: #f7f7f7;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+.block-address{
+  color: $color-text;
+}
+.footer-address-name{
+  font-family: $font-2;
+  font-size: 16px;
+}
+.footer-address{
+  font-family: $font-4;
+  font-size: 13.5px;
+}
+.block-address-text-uppercase{
+  text-transform: uppercase;
+}
+.footer-address-email{
+  color: inherit;
+  &:hover{
+    color: #606264;
+  }
+}
+.footer-block-icon{
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-icon-twitter{
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -213px -162px;
+  width: 35px;
+  height: 34px;
+}
+.footer-icon-facebook{
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -123px -162px;
+  width: 35px;
+  height: 34px;
+}
+.footer-icon-3{
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -168px -162px;
+  width: 35px;
+  height: 34px;
+}

@@ -1,0 +1,140 @@
+.block-bicycles-1{
+  min-height: 600px;
+}
+//Bike-1
+.bicycle-logo-1{
+  background-image: url(../img/bicycle-1.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bicycles-description{
+  padding-top: 102px;
+  padding-right: 65px;
+  padding-left: 65px;
+  height: 400px;
+  overflow: auto;
+  position: relative;
+  &:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    bottom: -28px;
+    transform: translate(-50%,0);
+    border: 18px solid transparent;
+    border-top: 15px solid #ffffff;
+    z-index: 100;
+
+  }
+}
+
+.bicycles-description-title{
+  font-family: $font-2;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: $color-title;
+  line-height: 34px;
+  position: relative;
+ }
+.description-title-bike-1{
+  &:before{
+    @include add-icon-description-title;
+    background-image: url(../img/sprite/sprite.png);
+    background-position: -310px -77px;
+    width: 41px;
+    height: 30px;
+  }
+}
+.bicycles-description-text{
+  font-family: $font-1;
+  font-size: 16px;
+  color: $color-text;
+  line-height: 30px;
+  position: relative;
+  &:after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #d7d7d7;
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform: translate(-50%,0);
+  }
+}
+.bicycles-1-description-saddle{
+  min-height: 200px;
+  background-image: url(../img/saddle-1.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+//Bike-2
+.description-title-bike-2{
+  &:before{
+    @include add-icon-description-title;
+    background-image: url(../img/sprite/sprite.png);
+    background-position: -258px -162px;
+    width: 32px;
+    height: 32px;
+  }
+}
+.bicycle-logo-2{
+  background-image: url(../img/bicycle-2.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bicycles-2-description-saddle{
+  min-height: 200px;
+  background-image: url(../img/saddle-2.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+//Bike-3
+.description-title-bike-3{
+  &:before{
+    @include add-icon-description-title;
+    background-image: url(../img/sprite/sprite.png);
+    background-position: -123px -206px;
+    width: 23px;
+    height: 41px;
+  }
+}
+.bicycle-logo-2{
+  background-image: url(../img/bicycle-3.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bicycles-3-description-wheal{
+  min-height: 200px;
+  background-image: url(../img/wheal.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.bike-3-img{
+  min-height: 600px;
+  background-image: url(../img/bicycle-3.1.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.bicycles-3-description-wheal{
+  min-height: 200px;
+  background-image: url(../img/bike-3-wheal.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}

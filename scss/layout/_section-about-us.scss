@@ -1,0 +1,33 @@
+
+.section-about-us-block-title{
+  padding-top: 100px;
+  padding-bottom: 130px;
+  background: #f7f7f7;
+}
+.section-about-us-title{
+  font-family: $font-2;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: $color-title;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  position: relative;
+  &:before{
+    content: '';
+    display: block;
+    width: 52px;
+    height: 43px;
+    background-image: url(../img/sprite/sprite.png);
+    background-position: -187px -77px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,0);
+  }
+}
+.section-about-us-text{
+  font-family: $font-1;
+  font-size: 18px;
+  color: $color-text;
+  line-height: 34px;
+}

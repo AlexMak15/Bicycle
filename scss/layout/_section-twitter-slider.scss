@@ -1,0 +1,58 @@
+.section-Twitter-carousel{
+  padding-top: 90px;
+  padding-bottom: 50px;
+  min-height: 450px;
+}
+.owl-stage-outer{
+  padding-top: 20px;
+}
+.owl-dots{
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  padding-top: 75px;
+}
+.owl-carousel .owl-dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #a9afb3;
+  display: inline-block;
+  margin-right: 9px;
+}
+.owl-carousel .owl-dot:last-child{
+  margin-right: 0;
+}
+.owl-dot.active{
+  background-color: #a9afb3;
+}
+.section-Twitter-carousel-icon{
+  display: inline-block;
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -361px -77px;
+  width: 32px;
+  height: 27px;
+  margin-bottom: 25px;
+}
+.section-Twitter-carousel-title{
+  font-family: $font-2;
+  font-size: 18px;
+  color: $color-title;
+}
+.section-Twitter-carousel-title-uper{
+  text-transform: uppercase;
+}
+.active span:nth-child(2){
+  display: inline-block;
+}
+.section-Twitter-carousel-title-light{
+  font-family: $font-3;
+  color: $color-text;
+  display: inline-block;
+}
+.section-Twitter-carousel-text{
+  font-family: $font-4;
+  font-size: 18px;
+  color: $color-text;
+}

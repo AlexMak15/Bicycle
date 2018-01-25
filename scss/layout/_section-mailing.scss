@@ -1,0 +1,31 @@
+.section-mailing{
+  padding-bottom: 115px;
+}
+.section-mailing-text{
+  font-family: $font-4;
+  font-size: 24px;
+  color: #848789;
+  line-height: 34px;
+  display: inline-block;
+  padding-top: 25px;
+  padding-bottom:25px;
+}
+.section-mailing-form input[type="email"]{
+  border: 1px solid #d3d7d9;
+  font-family: $font-4;
+  font-size: 20px;
+  padding-top: 19px;
+  padding-bottom: 23px;
+  color: #848789;
+  padding-left: 22px;
+  padding-right: 22px;
+  width: 400px;
+  height: 70px;
+}
+.section-mailing-form input[type="submit"]{
+  border: 0;
+  background-color: #64c29e;
+  color: #fff;
+  padding: 24px 45px;
+  cursor: pointer;
+}

@@ -1,0 +1,106 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1250px) {
+  .bicycles-description{
+    padding-top: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .bicycles-description{
+    min-height: auto;
+  }
+  .section-about-us-block-title{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .bicycles-description{
+    overflow: visible;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .cont-btn-top-menu{
+    display: block;
+  }
+  .top-menu{
+    background: rgba(25, 50, 33, 0.13);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+     a{
+      display: block;
+    }
+    a:hover{
+      background: rgba(255,255,255,.5);
+    }
+  }
+  .block-top-menu{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    top: -1000px;
+    transition: all .3s;
+  }
+  .block-top-menu-visible{
+    opacity: 1;
+    top: 0;
+  }
+  .logotype{
+    order: 1;
+  }
+  .logo-mobile-screen{
+    display: block;
+    margin-left: 20px;
+  }
+  .logotype{
+    display: none;}
+  .footer-block-icon{
+    padding-top: 30px;
+  }
+  .section-mailing-form input[type="email"]{
+    width: 300px;
+  }
+  .section-Twitter-carousel{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    min-height: 330px;
+  }
+  .owl-dots{
+    padding-top: 30px;
+  }
+  .section-shop{
+    padding-bottom: 50px;
+  }
+  .section-mailing{
+    padding-bottom: 50px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .bicycles-description{
+    padding-top: 70px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+  }
+  .section-mailing{
+    padding-bottom: 50px;
+  }
+  .section-mailing-form input[type="email"]{
+    width: 200px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

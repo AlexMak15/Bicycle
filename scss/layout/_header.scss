@@ -1,0 +1,82 @@
+header{
+  padding-top: 50px;
+  position: relative;
+  background-image: url(../img/bg-header.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 800px;
+}
+.logo-mobile-screen{
+  display: none;
+}
+.logotype{
+  margin-top: -25px;
+
+}
+.top-menu{
+  display: flex;
+  justify-content: space-between;
+  a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    padding: 5px 0;
+    text-transform: uppercase;
+    &:hover{
+      color: #3b3b3b;
+    }
+  }
+}
+
+.btn-top-menu{
+  width: 40px;
+  height: 32px;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  transition: transform .5s;
+  &:focus{
+    outline: none;
+    box-shadow: 0 0 20px #fff;
+  }
+  span{
+    display: block;
+    background: #000;
+    width: 40px;
+    height: 8px;
+    position: absolute;
+    border-radius: 10px;
+    transition: all .5s;
+  }
+  span:nth-child(2){
+    top: 50%;
+    transform: translate(0,-50%);
+  }
+  span:nth-child(1){
+    top: 0;
+  }
+  span:nth-child(3){
+    bottom: 0;
+  }
+}
+.cont-btn-top-menu{
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 5%;
+  z-index: 100;
+}
+.top-menu-active{
+  span:nth-child(2){
+    display: none;
+  }
+  span:nth-child(1){
+    transform: rotate(-45deg);
+  }
+  span:nth-child(3){
+    transform: rotate(45deg);
+  }
+}
+
